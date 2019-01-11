@@ -101,15 +101,56 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ---------- Color Boxes ----------- */
+.boxes .a {
+    background: teal;
+}
+
+.boxes .b {
+    background: gold;
+}
+
+.boxes .c {
+    background: cadetblue;
+}
+
+.boxes .d {
+    background: coral;
+}
+
+.boxes .e {
+    background: crimson;
+}
+
+.boxes .f {
+    background: forestgreen;
+}
+
+.boxes .g {
+    background: darkorchid;
+}
+
+.boxes .h {
+    background: hotpink;
+}
+
+.boxes .i {
+    background: indigo;
+}
+
+.boxes .j {
+    background: dodgerblue;
 }
 
 .bottom-content {
