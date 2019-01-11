@@ -34,11 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
--Semantic HTML gives your html meaning, helping with search engine optimization and accessibility.
+- Semantic HTML gives your html meaning, helping with search engine optimization and accessibility.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
--Block elements want nothing around it, while inline lets elements sit next to it.
+- Block elements want nothing around it, while inline lets elements sit next to it.
 
 3. What are the 4 areas of the box model?
 
@@ -50,7 +50,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
--Git is valueable to a team of developers because it helps with version control, as well as making sure everyone
+- Git is valueable to a team of developers because it helps with version control, as well as making sure everyone
 is on the same page. Also multiple people can be working on multiple parts of an app/website at different times.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
