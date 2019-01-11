@@ -78,6 +78,11 @@ p {
     font-size: 14px;
 }
 
+.header-content a:hover{
+    animation: grow 2s infinite;
+    color: #4E71BF;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -253,4 +258,13 @@ main{
 
 .lets-work-together{
     margin-bottom: 4%;
+}
+
+@keyframes grow{
+  50%{
+    font-size: 24px;
+  }
+  100%{
+    font-size: 14px;
+  }
 }
