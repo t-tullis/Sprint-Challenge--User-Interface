@@ -39,12 +39,12 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -71,12 +71,25 @@ p {
     margin: 0 auto;
 }
 
+
+.header-content a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-content a:hover{
+    animation: grow 2s infinite;
+    color: #4E71BF;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 3%;
 }
 
 .top-content .text-container {
@@ -101,15 +114,56 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ---------- Color Boxes ----------- */
+.boxes .a {
+    background: teal;
+}
+
+.boxes .b {
+    background: gold;
+}
+
+.boxes .c {
+    background: cadetblue;
+}
+
+.boxes .d {
+    background: coral;
+}
+
+.boxes .e {
+    background: crimson;
+}
+
+.boxes .f {
+    background: forestgreen;
+}
+
+.boxes .g {
+    background: darkorchid;
+}
+
+.boxes .h {
+    background: hotpink;
+}
+
+.boxes .i {
+    background: indigo;
+}
+
+.boxes .j {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +197,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*---------------------------------About CSS------------------------*/
+.header-content{
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.header-content nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.header-content section{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.about-content{
+    margin: 2%;
+}
+
+
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
+    padding-top: 4%;
+}
+
+.flex-card{
+    display: flex;
+    flex-flow: column wrap;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 6%;
+    padding-bottom: 1%.
+}
+
+.flex-card h2{
+    margin-top: 4%;
+}
+
+.flex-card button{
+    border-radius: 11px;
+    padding: 10px 0px;
+    width: 35%;
+    border: 2px solid black;
+    margin: 4% 0;
+    font-size: 16px;
+}
+
+.lets-work-together{
+    margin-bottom: 4%;
+}
+
+@keyframes grow{
+  50%{
+    font-size: 24px;
+  }
+  100%{
+    font-size: 14px;
+  }
 }
